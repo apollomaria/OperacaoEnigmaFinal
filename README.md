@@ -2,7 +2,7 @@
 
 > *"Há rumores de que um ex-aluno brilhante escondeu a chave para um cofre digital direto nos arquivos deste repositório abandonado. O código legado falhou. A única forma de recuperar a informação é reconstruindo os decodificadores esquecidos."*
 
-Bem-vindos à Operação Enigma. Este não é um exercício comum. Para chegar ao final, sua dupla precisará de engenharia reversa, análise estrutural e muita programação orientada a objetos.
+Bem-vindos à Operação Enigma. Este não é um exercício comum. Para chegar ao final, sua equipe precisará de engenharia reversa, análise estrutural e muita programação orientada a objetos.
 
 ## 🎯 Competências Avaliadas
 Ao longo desta missão, você testará seus limites em:
@@ -21,4 +21,4 @@ A execução final do seu código revelará uma URL secreta. Acesse-a para regis
 
 ---
 *💡 DICA PARA QUEM LÊ A DOCUMENTAÇÃO:*
-*Nem tudo que parece lixo digital está corrompido. Às vezes, o visualizador de imagens do seu sistema operacional apenas não sabe ler Base64 no final de um arquivo... Comece pela imagem `pista_01.jpg` usando o Java!*
+*Nem tudo que parece lixo digital está corrompido. Às vezes, o visualizador de imagens do seu sistema operacional apenas não sabe ler algo no final de um arquivo... Comece pela imagem `pista_01.jpg` usando o Java!*
