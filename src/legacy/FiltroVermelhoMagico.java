@@ -13,7 +13,7 @@ public class FiltroVermelhoMagico implements FiltroImagem {
         File f = null;
         
         try {
-            f = new File("D:/Apollo/Downloads/ruido.bmp");
+            f = new File("src/ruido.bmp");
             img = ImageIO.read(f);
         }
         catch (IOException e) {
@@ -39,9 +39,7 @@ public class FiltroVermelhoMagico implements FiltroImagem {
                 // get blue
                 int b = p & 0xff;
 
-                // Color.RGBtoHSB(r, g, b, null);
-
-                if (p % 2 == 0) { // BRANCO
+                if (r % 2 == 0) { // BRANCO
                     a = 0;
                     r = 255;
                     g = 255;
@@ -60,7 +58,7 @@ public class FiltroVermelhoMagico implements FiltroImagem {
         }
 
         try {
-            f = new File("D:/Apollo/Downloads/ruidoFiltrado.png");
+            f = new File("src/ruidoFiltrado.png");
             ImageIO.write(img, "png", f);
         }
         catch (IOException e) {
